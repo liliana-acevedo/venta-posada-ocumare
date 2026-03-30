@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venta de Posada – Tu Refugio en la Costa de Oro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER / NAVEGACIÓN
+  ═══════════════════════════════════════════ -->
+  <header id="header">
+    <nav class="nav-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon"><i class="fas fa-anchor"></i></span>
+        <span class="logo-text">Venta de <em>Proyecto de posada</em></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#posada" class="nav-link">La Posada</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#instalaciones" class="nav-link">Instalaciones</a></li>
+        <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════ -->
+  <section id="inicio" class="hero">
+    <!-- Slideshow backgrounds -->
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image: url('recursos/img1.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('recursos/img2.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('recursos/img7.jpeg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+      <!-- BADGE: Ocumare de la Costa de Oro · Venezuela -->
+      <div class="hero-location-badge">
+        <i class="fas fa-map-marker-alt hero-pin-icon"></i>
+        <span class="hero-location-name">Ocumare de la Costa de Oro</span>
+        <span class="hero-location-sep">·</span>
+        <span class="hero-location-country">Venezuela</span>
+      </div>
+
+      <h1 class="hero-title">
+        Tu refugio elegante<br /><em>en la Costa de Oro</em>
+      </h1>
+
+      <!-- INVESTMENT HOOK TEXT (mejorado) -->
+      <p class="hero-investment-hook"></p>
+      <p class="hero-subtitle">
+      Oportunidad única de inversión. Venta de hermoso proyecto de posada esperando tu visión para convertirse en el destino costero perfecto.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#galeria" class="btn btn-primary">
+          <i class="fas fa-images"></i> Ver Galería
+        </a>
+        <a href="#contacto" class="btn btn-outline">
+          <i class="fab fa-whatsapp"></i> Contáctame ahora
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECCIÓN: LA POSADA
+  ═══════════════════════════════════════════ -->
+  <section id="posada" class="section posada-section">
+    <div class="container">
+      <div class="posada-grid">
+        <div class="posada-text" data-aos>
+          <p class="section-label">Informacion de la posada</p>
+          <h2 class="section-title">Inversión a Corto Plazo, Zona de Fácil Acceso </h2>
+          <div class="gold-divider"></div>
+          <p class="posada-desc">
+            <strong>Ubicación estratégica</strong> y alto potencial turístico. Este sólido proyecto 
+            de posada se encuentra en una buena zona de El Playón, en Ocumare de 
+            la Costa de Oro. Situado en plena Avenida Principal, a tan solo 20 metros del 
+            liceo Playon y a tres cuadras del icónico Malecón, garantiza un acceso directo 
+            y un excelente flujo de visitantes para tu futuro negocio.
+          </p>
+          <p class="posada-desc">
+            La propiedad abarca 900 m² - terreno municipal, ofreciendo privacidad y 
+            seguridad con su cercado perimetral de bloque. La posada está diseñada para 
+            operar cómodamente: cuenta con un tanque subterráneo de 20.000 litros, 
+            acometida eléctrica bifásica completa, 5 habitaciones con baños privados 
+            (2 familiares para 6 personas y 3 matrimoniales), además de áreas de 
+            esparcimiento <br class="br-desktop" /> con piscina, caney, duchas y baños públicos.
+          </p>
+          <div class="posada-stats">
+            <div class="stat">
+              <span class="stat-num">+5</span>
+              <span class="stat-label">Habitaciones</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">900 m²</span>
+              <span class="stat-label">Terreno municipal</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3 cuadras</span>
+              <span class="stat-label">Del malecon</span>
+            </div>
+          </div>
+        </div>
+        <div class="posada-images" data-aos>
+          <div class="img-featured">
+            <img src="recursos/img1.jpeg" alt="Fachada principal de la Posada Ocumare" loading="lazy" />
+          </div>
+          <div class="img-small-grid">
+            <img src="recursos/img2.jpeg" alt="Entrada de la posada" loading="lazy" />
+            <img src="recursos/img7.jpeg" alt="Área de piscina" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECCIÓN: GALERÍA (con video)
+  ═══════════════════════════════════════════ -->
+  <section id="galeria" class="section gallery-section">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <p class="section-label">Fotografías & Video</p>
+        <h2 class="section-title">Galería de la Posada</h2>
+        <div class="gold-divider centered"></div>
+        <p class="section-sub">Explora cada rincón. Haz clic en cualquier imagen o video para verlo en detalle.</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-index="0">
+          <img src="recursos/img1.jpeg" alt="Posada Ocumare - Vista 1" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="1">
+          <img src="recursos/img2.jpeg" alt="Posada Ocumare - Vista 2" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="recursos/img3.jpeg" alt="Posada Ocumare - Vista 3" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="recursos/img4.jpeg" alt="Posada Ocumare - Vista 4" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img src="recursos/img5.jpeg" alt="Posada Ocumare - Vista 5" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img src="recursos/img6.jpeg" alt="Posada Ocumare - Vista 6" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="6">
+          <img src="recursos/img7.jpeg" alt="Posada Ocumare - Vista 7" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="7">
+          <img src="recursos/img8.jpeg" alt="Posada Ocumare - Vista 8" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="8">
+          <img src="recursos/img9.jpeg" alt="Posada Ocumare - Vista 9" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="9">
+          <img src="recursos/img10.jpeg" alt="Posada Ocumare - Vista 10" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="10">
+          <img src="recursos/img11.jpeg" alt="Posada Ocumare - Vista 11" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="11">
+          <img src="recursos/img12.jpeg" alt="Posada Ocumare - Vista 12" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="12">
+          <img src="recursos/img13.jpeg" alt="Posada Ocumare - Vista 13" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="13">
+          <img src="recursos/img14.jpeg" alt="Posada Ocumare - Vista 14" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="14">
+          <img src="recursos/img15.jpeg" alt="Posada Ocumare - Vista 15" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="15">
+          <img src="recursos/img16.jpeg" alt="Posada Ocumare - Vista 16" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="16">
+          <img src="recursos/img17.jpeg" alt="Posada Ocumare - Vista 17" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="17">
+          <img src="recursos/img18.jpeg" alt="Posada Ocumare - Vista 18" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="18">
+          <img src="recursos/img19.jpeg" alt="Posada Ocumare - Vista 19" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-index="19">
+          <img src="recursos/img20.jpeg" alt="Posada Ocumare - Vista 20" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!-- VIDEO ITEM (item 21, index 20) -->
+        <div class="gallery-item gallery-video-item" data-index="20" data-type="video">
+          <video muted playsinline preload="metadata">
+            <source src="recursos/WhatsApp Video 2026-03-29 at 3.19.22 PM.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay gallery-video-overlay">
+            <div class="video-play-btn">
+              <i class="fas fa-play"></i>
+            </div>
+            <span class="video-caption">Recorrido en video</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       LIGHTBOX MODAL (soporta imágenes y video)
+  ═══════════════════════════════════════════ -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Visor de medios">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar"><i class="fas fa-times"></i></button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Imagen anterior"><i class="fas fa-chevron-left"></i></button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="Imagen ampliada" />
+      <video id="lightboxVideo" controls style="display:none;"></video>
+      <div class="lightbox-counter" id="lightboxCounter">1 / 21</div>
+    </div>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Imagen siguiente"><i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SECCIÓN: INSTALACIONES
+  ═══════════════════════════════════════════ -->
+  <section id="instalaciones" class="section amenities-section">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <p class="section-label">Comodidades</p>
+        <h2 class="section-title">Instalaciones & Servicios</h2>
+        <div class="gold-divider centered"></div>
+        <p class="section-sub">Todo lo que necesitas para unas vacaciones perfectas, en un solo lugar.</p>
+      </div>
+
+      <div class="amenities-grid amenities-grid--6">
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-bed"></i></div>
+          <h3>Habitaciones con Baño Privado</h3>
+          <p>Un total de 6 habitaciones con baños privados construidos y esperando su fase final. Incluye los colchones y las piezas sanitarias de lujo (W.C., lavamanos y regaderas) listas para instalar,</p>
+        </div>
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-swimming-pool"></i></div>
+          <h3>Área de Piscina</h3>
+          <p>Diseñada para refrescarse bajo el sol. La venta incluye los equipos y accesorios necesarios para su funcionamiento: filtro, bomba de 2HP, espumaderas y boquillas de impulsión.</p>
+        </div>
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Caney / Área de Usos Múltiples</h3>
+          <p>Espacioso caney techado diseñado para brindar flexibilidad a la posada. Una estructura abierta que puedes transformar fácilmente en el área de cocina, comedor o el espacio de esparcimiento que mejor funcione para tu inversión.</p>
+        </div>
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-car"></i></div>
+          <h3>Estacionamiento Privado</h3>
+          <p>Gran espacio interno ideal para recibir múltiples vehículos, un excelente valor agregado para una posada en la costa. Acceso seguro mediante portón metálico corredizo para la tranquilidad de los visitantes.</p>
+        </div>
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-umbrella-beach"></i></div>
+          <h3>Esta a <span class="stat-num-small">3</span> Cuadras del Malecón</h3>
+          <p>Estratégicamente ubicada en la Avenida Principal de El Playón. Estar a tan solo tres cuadras del Malecón garantiza una visibilidad comercial inmejorable y la facilidad de llegar a la playa caminando en pocos minutos.</p>
+        </div>
+        <div class="amenity-card" data-aos>
+          <div class="amenity-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+          <h3>Área Libre para Expansión</h3>
+          <p>La distribución de la posada deja un área libre perfecta para seguir construyendo. Una excelente oportunidad para diseñar espacios adicionales de esparcimiento, ampliar las instalaciones o adaptar el terreno a la visión y necesidades del nuevo propietario.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECCIÓN: UBICACIÓN (nueva)
+  ═══════════════════════════════════════════ -->
+  <section id="ubicacion" class="section location-section">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <p class="section-label">¿Dónde encontrarnos?</p>
+        <h2 class="section-title">Ubicación Privilegiada</h2>
+        <div class="gold-divider centered"></div>
+        <p class="section-sub">En plena Avenida Principal de El Playón, a 3 cuadras del Malecón de Ocumare de la Costa.</p>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-map-wrap" data-aos>
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-67.82%2C10.44%2C-67.74%2C10.49&amp;layer=mapnik&amp;marker=10.464%2C-67.7881"
+            width="100%"
+            height="440"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            title="Ubicación Ocumare de la Costa en el mapa">
+          </iframe>
+          <a href="https://www.openstreetmap.org/?mlat=10.464&mlon=-67.7881#map=15/10.464/-67.7881"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="map-open-link">
+            <i class="fas fa-external-link-alt"></i> Ver en mapa completo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SECCIÓN: CONTACTO
+  ═══════════════════════════════════════════ -->
+  <section id="contacto" class="section contact-section">
+    <div class="contact-bg-shape"></div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-aos>
+          <p class="section-label">¿Te interesa esta propiedad?</p>
+          <h2 class="section-title">Contáctame</h2>
+          <div class="gold-divider"></div>
+          <p class="contact-desc">
+            Este proyecto de posada en Ocumare de la Costa es la <strong>oportunidad de 
+            inversión</strong> que estabas buscando. Contáctame para conocer más detalles, 
+            consultar el precio o agendar una visita al inmueble. Estoy a tu entera 
+            disposición para brindarte toda la información que necesites.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>El Playón, Ocumare de la Costa (Edo. Aragua).</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <span>+58 424-1598783</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>lilianapinango61@gmail.com</span>
+            </div>
+          </div>
+          <a href="https://wa.me/584241598783?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20la%20Posada%20Ocumare%20en%20venta." 
+            target="_blank" 
+            class="btn btn-outline">
+            <i class="fab fa-whatsapp"></i> Contáctame ahora
+          </a>
+        </div>
+
+        <div class="contact-form-wrap" data-aos>
+          <!-- UN SOLO form tag - corregido -->
+          <form action="https://formsubmit.co/ajax/lilianapinango61@gmail.com" method="POST" class="contact-form" id="contactForm">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="POSIBLE CLIENTE DE LA POSADA QUIERE CONTACTAR CONTIGO">
+
+            <h3>Envíanos tu consulta</h3>
+            <p class="form-intro">¿Tienes preguntas sobre la propiedad? Escríbenos y te respondemos a la brevedad.</p>
+
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="Nombre" placeholder="Ej. Carlos Rodríguez" required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono / WhatsApp</label>
+              <input type="tel" id="telefono" name="Telefono" placeholder="+58 XXX XXX XXXX" required>
+            </div>
+
+            <div class="form-group">
+              <label for="interes">¿Qué te interesa saber?</label>
+              <select id="interes" name="Interes">
+                <option value="precio">Precio de venta</option>
+                <option value="visita">Coordinar una visita</option>
+                <option value="documentos">Documentación legal</option>
+                <option value="otro">Otra consulta</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="Mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">
+              <i class="fas fa-paper-plane"></i> Enviar consulta
+            </button>
+
+            <p class="form-note" id="formMsg"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER (rediseñado)
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+
+      <!-- Fila superior: Logo + redes -->
+      <div class="footer-brand-row">
+        <div class="footer-logo-block">
+          <a href="#inicio" class="logo">
+            <span class="logo-icon"><i class="fas fa-anchor"></i></span>
+            <span class="logo-text">Venta de <em>Proyecto de posada</em></span>
+          </a>
+          <p class="footer-tagline">Tu oportunidad de inversión en la Costa Caribe de Venezuela</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://wa.me/584241598783" target="_blank" class="footer-social-btn" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="mailto:lilianapinango61@gmail.com" class="footer-social-btn" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="#ubicacion" class="footer-social-btn" aria-label="Ubicación">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-line"></div>
+
+      <!-- Columnas principales -->
+      <div class="footer-main">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navegación</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+            <li><a href="#posada"><i class="fas fa-chevron-right"></i> La Posada</a></li>
+            <li><a href="#galeria"><i class="fas fa-chevron-right"></i> Galería</a></li>
+            <li><a href="#instalaciones"><i class="fas fa-chevron-right"></i> Instalaciones</a></li>
+            <li><a href="#ubicacion"><i class="fas fa-chevron-right"></i> Ubicación</a></li>
+            <li><a href="#contacto"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Instalaciones</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#instalaciones"><i class="fas fa-bed"></i> Habitaciones (x6)</a></li>
+            <li><a href="#instalaciones"><i class="fas fa-swimming-pool"></i> Piscina</a></li>
+            <li><a href="#instalaciones"><i class="fas fa-car"></i> Estacionamiento</a></li>
+            <li><a href="#instalaciones"><i class="fas fa-utensils"></i> Área Caney</a></li>
+            <li><a href="#instalaciones"><i class="fas fa-expand-arrows-alt"></i> Área de Expansión</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contacto</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Av. Principal El Playón,<br>Ocumare de la Costa, Aragua</span>
+            </li>
+            <li>
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/584241598783" target="_blank">+58 424-159-8783</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:lilianapinango61@gmail.com">lilianapinango61@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col--cta">
+          <h4 class="footer-col-title">¿Te interesa?</h4>
+          <p class="footer-cta-desc">Agenda una visita y descubre todo el potencial de esta propiedad costera.</p>
+          <a href="https://wa.me/584241598783?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20la%20Posada%20Ocumare%20en%20venta."
+            target="_blank"
+            class="btn btn-primary footer-cta-btn">
+            <i class="fab fa-whatsapp"></i> Contactar ahora
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-line"></div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>© 2025 <span>Posada Ocumare</span> · El Playón, Ocumare de la Costa · Venezuela</p>
+        <p class="footer-bottom-right">Todos los derechos reservados </i></span></p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
