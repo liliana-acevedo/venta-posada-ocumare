@@ -50,6 +50,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 
+
+
 /* ═══════════════════════════════════════════
    TYPOGRAPHY HELPERS
 ═══════════════════════════════════════════ */
@@ -1583,4 +1585,21 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .footer-col--cta { grid-column: span 1; }
   .footer-bottom { flex-direction: column; align-items: flex-start; gap: 6px; }
   .hero-investment-hook { font-size: 1.1rem; }
+}
+
+/* AJUSTE NUEVO PARA EL INICIO EN CELULARES */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 65vh; 
+    padding-top: 80px; 
+  }
+  .hero-scroll-hint {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 60vh; 
+  }
 }
