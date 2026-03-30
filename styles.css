@@ -1619,7 +1619,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* AJUSTE PARA QUE LA ETIQUETA DE UBICACIÓN QUEDE EN UNA SOLA LÍNEA EN CELULARES */
 @media (max-width: 768px) {
   .hero-location-badge {
-    font-size: 0.55rem !important;     /* Letra un poco más pequeña */
+    font-size: 0.65rem !important;     /* Letra un poco más pequeña */
     letter-spacing: 0.12em !important; /* Reduce el espacio entre las letras */
     padding: 6px 12px !important;      /* Reduce el espacio vacío a los lados */
     gap: 5px !important;               /* Acerca el icono de ubicación al texto */
