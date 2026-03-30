@@ -279,7 +279,7 @@
       formMsg.style.color = '#E2C06A';
       formMsg.textContent = 'Enviando tu consulta...';
 
-      fetch('https://formsubmit.co/ajax/lilianapinango61@gmail.com', {
+      fetch('https://formsubmit.co/ajax/adiaz1225@gmail.com', {
         method: 'POST',
         body: new FormData(contactForm),
       })
