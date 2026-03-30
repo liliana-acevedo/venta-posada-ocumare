@@ -1591,7 +1591,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 @media (max-width: 768px) {
   .hero {
     min-height: 65vh; 
-    padding-top: 80px; 
+    padding-top: 50px; 
   }
   .hero-scroll-hint {
     display: none;
